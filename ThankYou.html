@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThankYou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thanks a ton for taking the time to complete the survey.</h1>
+        <h3>Email Add: <span id="email"></span></h3>
+        <h3>Phone No: <span id="inital"></span><span id="phoneno"></span></h3>
+
+    </div>
+    
+<script>
+  const URLparams=new URLSearchParams(window.location.search);
+  const phone=URLparams.get('phoneno');
+  const email=URLparams.get('email');
+//   const initial=URLparams.get('initial');
+  
+  document.getElementById('email').textContent=email;
+//   document.getElementById('initial').textContent=initial;
+  document.getElementById('phoneno').textContent=phone;
+  
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebEngage</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <img src="https://www2.deloitte.com/content/dam/Deloitte/us/Images/promo_images/deloitte/us-deloitte-logo.jpg" id="deloitte-logo">
+        <h1>Get A FREE</h1>
+        <h2>consultation with the expert</h2>
+    </div>
+    <div class="main">
+        <!-- <label for="number">Enter phone Number: </label> -->
+        <form id="details" method="get" action="ThankYou.html">
+            <select id="phoneno">
+                <option value="india" checked>+91</option>
+                <option value="brazil">+55</option>
+                <option value="dubai">+971</option>
+            </select>
+            <input type="text" id="number" placeholder="Enter Phone no." required>
+            <br>
+            <input type="email" id="email" placeholder="Enter email" required>
+            
+            <div class="button">
+                <button type="button" id="btn">Talk To Us -></button>
+            </div>
+        </form>
+
+    </div>
+   <script src="functionality.js"></script>
+
+</body>
+</html>

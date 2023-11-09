@@ -1,0 +1,57 @@
+.number{
+    display: block;
+}
+.email{
+    display: block;
+    margin-top: 10px;
+}
+body{
+    background-image: url("https://keystoneacademic-res.cloudinary.com/image/upload/f_auto/q_auto/g_auto/c_fill/w_1280/element/11/116594_shutterstock_536212654.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* h1{
+   text-align: center;
+   padding-top: 250px;
+
+}
+h2{
+    text-align: center;
+} */
+#deloitte-logo{
+    width:200px;
+    height: 160px;
+}
+.container{
+    text-align: center;
+   padding-top: 150px;
+   color: rgb(0, 0, 0)
+}
+.main{
+    text-align: center;
+   padding-top: 40px;
+}
+#number{
+    margin-left: 05px;
+    border-color: blue;
+    border-style: solid;
+    width: auto;
+    height: auto;
+}
+#email{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.button{
+    text-align: center;
+    margin-top: 10px;
+}
+#btn{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
